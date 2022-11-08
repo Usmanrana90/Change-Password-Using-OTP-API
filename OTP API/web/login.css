@@ -1,0 +1,94 @@
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.header
+{
+   
+    padding-left: 10px;
+    background-color: #bcee68;
+    height: 70px;
+}
+.header h1
+{
+   padding-top: 20px;
+   font-style: oblique;
+}
+
+
+.menu ul{
+    display: inline;
+    margin: 40px;
+    
+}
+.menu ul li
+{
+    
+    font-size: 20px;
+    list-style: none;
+    margin: 0 20px;
+    color: white;
+    cursor: pointer;
+}
+.logo img
+{
+   width: 20px;
+   margin-top: -7px;
+   margin-left:48px;
+   border-radius: 22px;
+}
+.active
+{
+    color: #fff85b !important;
+}
+.slider{
+    background-image: url(img/82846.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+}
+
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
